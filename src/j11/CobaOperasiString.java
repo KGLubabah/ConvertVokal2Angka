@@ -43,6 +43,17 @@ public class CobaOperasiString {
         System.out.println("Perbandingan isi r dengan s (Case Sensitive) : "
                 + r.compareTo(s));
         
+        System.out.println("Pada x terdapat huruf 'a' : " + x.contains("a"));
+        
+        System.out.println("Isi variabel x besar semua : " + x.toUpperCase());
+        System.out.println("Isi variabel x kecil semua : " + x.toLowerCase());
+        
+        String t = "    Operasi     ";
+        System.out.println("Isi variabel t : \""+ t +"\"");
+        System.out.println("Isi variabel t tanpa spasi : \""+ t.trim() +"\"");
+        
+        System.out.println("Gabungkan isi variabel x dan r : "+ x.concat(r));
+        
         
     }
 }
