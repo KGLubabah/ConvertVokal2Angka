@@ -54,6 +54,27 @@ public class CobaOperasiString {
         
         System.out.println("Gabungkan isi variabel x dan r : "+ x.concat(r));
         
+        System.out.println("Karakter mulai posisi 3 di variabel x : "
+                + x.substring(3));
+        
+        System.out.println("Karakter mulai posisi 3-5 di variabel x : "
+                + x.substring(3,6));
+        
+        String tolean = t.trim();
+        System.out.println("Isi variabel tolean : " + t.trim());
+        System.out.println("Rubah 'i' jadi 'E' di variabel tolean : "
+                + tolean.replace("i", "E"));
+        
+        String[] arrT = tolean.split(" ");
+        System.out.println("Pecah kata di variabel tolean : ");
+        for (int i = 0; i < arrT.length; i++)
+            System.out.println(arrT[i]);
+        
+        String[] arrTr = tolean.split("r");
+        System.out.println("Pecah berdasarkan huruf 'r' di variabel tolean : ");
+        for (int i = 0; i < arrT.length; i++)
+            System.out.println(arrTr[i]);
+        
         
     }
 }
